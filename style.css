@@ -1,0 +1,36 @@
+html, body {
+  margin: 0 px;
+  padding: 0 px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: black;
+
+}
+
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 0 px;
+  margin-right: 0 px;
+  margin-bottom: 0 px;
+   margin-left: 0;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
